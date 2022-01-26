@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  margin: 0 auto;
+  background: #d9d9d9;
+  border-radius: 20px;
+  height: 25rem;
+  overflow: hidden;
+  padding: 1rem;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoInput {
+  width: 15rem;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #f56565;
+  outline: none;
+}
+
+.btn {
+  margin: 0 0.5rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: 1px solid #f56565;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+
+.todos {
+  display: flex;
+  align-items: center;
+}
+
+.todos button {
+  height: 20px;
+  margin-left: 0.5rem;
+}
